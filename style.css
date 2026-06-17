@@ -283,6 +283,27 @@ table tr:nth-child(even) td { background: #F4F4F4; }
   z-index: 1;
 }
 
+/* Epinova.no style pattern - right side */
+.ep-pattern-right {
+  position: absolute;
+  bottom: 60px;
+  right: 0;
+  width: 200px;
+  height: 180px;
+  z-index: 1;
+}
+
+/* White bar at bottom like epinova.no */
+.cover-bar-bottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 50px;
+  background: #fff;
+  z-index: 1;
+}
+
 /* ─── SECTION DIVIDER SLIDES ───────────────────────────────── */
 
 .section-bg {

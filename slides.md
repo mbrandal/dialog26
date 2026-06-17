@@ -22,33 +22,23 @@ title: All by Myself
   <div class="cover-logo">Epinova</div>
   <div class="cover-title-area">
     <h1>All by Myself</h1>
-    <p class="cover-subtitle">🤡 Eric Carmen, 1975 — overleve (og trives) som solo-utvikler</p>
-    <p class="cover-presenter">Martin Brandal & Magnus Neergaard &nbsp;•&nbsp; Dialog 2026</p>
+    <p class="cover-subtitle">Overleve (og trives) som solo-utvikler</p>
+    <p class="cover-presenter">Martin Brandal & Magnus Neergaard &bull; Dialog 2026</p>
   </div>
 </div>
 
-<div class="cover-pattern">
-  <svg viewBox="0 0 420 130" preserveAspectRatio="xMinYMax meet" fill="white" xmlns="http://www.w3.org/2000/svg">
-    <rect x="0" y="4" width="53" height="53"/>
-    <rect x="0" y="57" width="266" height="53"/>
-    <rect x="53" y="110" width="213" height="53"/>
-    <rect x="0" y="163" width="266" height="53"/>
-    <rect x="300" y="20" width="18" height="18" opacity="0.45"/>
-    <rect x="322" y="20" width="32" height="18" opacity="0.35"/>
-    <rect x="358" y="20" width="18" height="18" opacity="0.28"/>
-    <rect x="380" y="20" width="38" height="18" opacity="0.2"/>
-    <rect x="300" y="42" width="54" height="18" opacity="0.35"/>
-    <rect x="358" y="42" width="60" height="18" opacity="0.25"/>
-    <rect x="300" y="64" width="22" height="18" opacity="0.28"/>
-    <rect x="326" y="64" width="42" height="18" opacity="0.22"/>
-    <rect x="372" y="64" width="46" height="18" opacity="0.15"/>
-    <rect x="300" y="86" width="70" height="18" opacity="0.18"/>
-    <rect x="374" y="86" width="44" height="18" opacity="0.12"/>
-    <rect x="300" y="108" width="118" height="20" opacity="0.1"/>
+<div class="ep-pattern-right">
+  <svg viewBox="0 0 200 180" fill="white" xmlns="http://www.w3.org/2000/svg">
+    <rect x="120" y="0" width="80" height="24" opacity="0.15"/>
+    <rect x="140" y="28" width="60" height="24" opacity="0.12"/>
+    <rect x="100" y="56" width="100" height="24" opacity="0.1"/>
+    <rect x="160" y="84" width="40" height="24" opacity="0.08"/>
+    <rect x="120" y="112" width="80" height="24" opacity="0.06"/>
+    <rect x="80" y="140" width="120" height="24" opacity="0.04"/>
   </svg>
 </div>
 
-<div class="cover-bar-right"></div>
+<div class="cover-bar-bottom"></div>
 
 ---
 layout: default
@@ -477,32 +467,27 @@ title: Takeaways
 
 ---
 layout: cover
-class: outro-bg
-title: Outro
+title: Spørsmål?
 ---
 
 <div class="cover-inner">
   <div class="cover-logo">Epinova</div>
-  <div class="cover-title-area">
-    <h1 style="color:#D0E6E5;">All by Myself...</h1>
-    <p class="cover-subtitle" style="color:rgba(255,255,255,0.9);font-size:1.5rem;font-style:normal;font-weight:700;">...ikke helt 🦆</p>
-    <p class="cover-presenter">Martin Brandal & Magnus Neergaard</p>
-    <p style="color:rgba(255,255,255,0.45);font-size:0.85rem;margin-top:0.5rem;font-style:italic;">🎵 Don't wanna be all by myself anymore</p>
+  <div class="cover-title-area" style="text-align:center;margin-left:auto;margin-right:auto;">
+    <h1 style="font-size:5rem;">Spørsmål?</h1>
+    <p class="cover-presenter" style="margin-top:2rem;">Martin Brandal & Magnus Neergaard</p>
+    <p style="color:rgba(255,255,255,0.5);font-size:0.95rem;margin-top:1.5rem;font-style:italic;">Don't wanna be all by myself anymore</p>
   </div>
 </div>
 
-<div class="cover-pattern">
-  <svg viewBox="0 0 420 130" preserveAspectRatio="xMinYMax meet" fill="white" xmlns="http://www.w3.org/2000/svg" opacity="0.35">
-    <rect x="0" y="4" width="53" height="53"/>
-    <rect x="0" y="57" width="266" height="53"/>
-    <rect x="53" y="110" width="213" height="53"/>
-    <rect x="300" y="20" width="18" height="18" opacity="0.7"/>
-    <rect x="322" y="20" width="32" height="18" opacity="0.5"/>
-    <rect x="300" y="42" width="54" height="18" opacity="0.5"/>
-    <rect x="358" y="42" width="60" height="18" opacity="0.4"/>
-    <rect x="300" y="64" width="22" height="18" opacity="0.4"/>
-    <rect x="326" y="64" width="42" height="18" opacity="0.3"/>
+<div class="ep-pattern-right">
+  <svg viewBox="0 0 200 180" fill="white" xmlns="http://www.w3.org/2000/svg">
+    <rect x="120" y="0" width="80" height="24" opacity="0.15"/>
+    <rect x="140" y="28" width="60" height="24" opacity="0.12"/>
+    <rect x="100" y="56" width="100" height="24" opacity="0.1"/>
+    <rect x="160" y="84" width="40" height="24" opacity="0.08"/>
+    <rect x="120" y="112" width="80" height="24" opacity="0.06"/>
+    <rect x="80" y="140" width="120" height="24" opacity="0.04"/>
   </svg>
 </div>
 
-<div class="cover-bar-right" style="background:rgba(255,255,255,0.12);"></div>
+<div class="cover-bar-bottom"></div>
