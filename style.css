@@ -116,6 +116,322 @@ h1, h2, h3 {
 .ep-card-danger { border-left-color: #c0392b; background: #fff5f5; }
 .ep-card-muted  { border-left-color: #bbb; background: #f9f9f9; }
 
+/* ─── MAGNUS SECTION (slide 8-13 shared system) ───────────── */
+
+.mg-layout {
+  display: grid;
+  gap: 1.2rem;
+  height: calc(100% - 46px);
+  padding: 0.9rem 2rem 0.2rem;
+  overflow: hidden;
+  align-items: start;
+}
+
+.mg-layout-context {
+  grid-template-columns: 1.03fr 0.97fr;
+}
+
+.mg-layout-story {
+  grid-template-columns: 1.05fr 0.95fr;
+}
+
+.mg-layout-tight {
+  height: calc(100% - 58px);
+  gap: 0.95rem;
+  padding: 0.72rem 1.9rem 0.1rem;
+}
+
+.mg-layout-tight .mg-timeline {
+  gap: 0.45rem;
+}
+
+.mg-layout-tight .mg-step {
+  padding: 0.58rem 0.72rem;
+}
+
+.mg-layout-tight .mg-step-title {
+  margin: 0 0 0.18rem;
+  font-size: 0.88rem;
+}
+
+.mg-layout-tight .mg-step-body {
+  font-size: 0.76rem;
+  line-height: 1.26;
+}
+
+.slidev-page-8 .mg-layout-tight {
+  height: calc(100% - 45px);
+  gap: 0.8rem;
+  padding: 0.58rem 1.85rem 0.08rem;
+}
+
+.slidev-page-8 .mg-layout-tight .mg-title {
+  font-size: 1.88rem !important;
+  margin-bottom: 1rem !important;
+}
+
+.slidev-page-8 .mg-layout-tight .mg-step {
+  padding: 0.5rem 0.66rem;
+}
+
+.slidev-page-8 .mg-layout-tight .mg-step-title {
+  font-size: 0.84rem;
+  margin-bottom: 0.14rem;
+}
+
+.slidev-page-8 .mg-layout-tight .mg-step-body {
+  font-size: 0.72rem;
+  line-height: 1.22;
+}
+
+.slidev-page-8 .mg-layout-tight .mg-caption {
+  font-size: 0.72rem;
+  line-height: 1.28;
+}
+
+.slidev-page-6 .slidev-layout {
+  background: #146E6E !important;
+}
+
+.slidev-page-6 .ep-footer {
+  color: rgba(255,255,255,0.45) !important;
+  background: transparent !important;
+}
+
+.slidev-page-11 .mg-layout-tight {
+  height: calc(100% - 16px);
+  padding: 0.4rem 1.85rem 0.08rem;
+  gap: 0.4rem;
+}
+
+.slidev-page-11 .mg-layout-tight .mg-step {
+  padding: 0.38rem 0.6rem;
+}
+
+.slidev-page-11 .mg-layout-tight .mg-step-title {
+  font-size: 0.8rem;
+  margin-bottom: 0.1rem;
+}
+
+.slidev-page-11 .mg-layout-tight .mg-step-body {
+  font-size: 0.68rem;
+  line-height: 1.18;
+}
+
+.slidev-page-11 h2 {
+  margin-bottom: 0.6rem !important;
+}
+
+.slidev-layout.default h1.mg-title {
+  margin: 0 0 0.55rem;
+  padding: 0 0 0.35rem;
+  border-bottom: 2px solid #d0e6e5;
+  color: #146E6E;
+  font-size: 2.02rem;
+  line-height: 1.12;
+}
+
+.mg-lead {
+  margin: 0 0 0.72rem;
+  color: #666;
+  font-size: 0.8rem;
+  line-height: 1.35;
+}
+
+.mg-panel {
+  background: #fff;
+  border: 1px solid rgba(20, 110, 110, 0.18);
+  border-radius: 10px;
+  padding: 0.76rem 0.86rem;
+}
+
+.mg-panel + .mg-panel {
+  margin-top: 0.72rem;
+}
+
+.mg-panel-title {
+  margin: 0 0 0.46rem;
+  font-size: 0.76rem;
+  font-weight: 900;
+  color: #146E6E;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.mg-chip-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.4rem;
+}
+
+.mg-chip {
+  background: #e8f4f4;
+  border-radius: 7px;
+  padding: 0.4rem 0.48rem;
+  font-size: 0.67rem;
+  line-height: 1.2;
+  color: #555;
+}
+
+.mg-chip strong {
+  color: #146E6E;
+}
+
+.mg-chip-warn {
+  background: #fff8e6;
+}
+
+.mg-footnote {
+  margin: 0.5rem 0 0;
+  font-size: 0.64rem;
+  color: #777;
+  line-height: 1.3;
+}
+
+.mg-kpi-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.45rem;
+}
+
+.mg-kpi {
+  background: #f7fbfb;
+  border-left: 3px solid #146E6E;
+  border-radius: 6px;
+  padding: 0.46rem 0.54rem;
+}
+
+.mg-kpi-value {
+  font-size: 1rem;
+  line-height: 1;
+  font-weight: 900;
+  color: #146E6E;
+}
+
+.mg-kpi-label {
+  margin-top: 0.18rem;
+  font-size: 0.66rem;
+  color: #666;
+}
+
+.mg-note-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.45rem;
+}
+
+.mg-note {
+  background: #f4f4f4;
+  border-radius: 6px;
+  padding: 0.45rem 0.55rem;
+  font-size: 0.74rem;
+  color: #333;
+  line-height: 1.28;
+}
+
+.mg-note-danger {
+  margin-top: 0.2rem;
+  background: #fff3f3;
+  border-left: 4px solid #c0392b;
+  border-radius: 7px;
+  padding: 0.56rem 0.64rem;
+  font-size: 0.72rem;
+  color: #555;
+}
+
+.mg-timeline {
+  display: flex;
+  flex-direction: column;
+  gap: 0.58rem;
+}
+
+.mg-step {
+  border-left: 4px solid #888;
+  border-radius: 8px;
+  background: #f4f4f4;
+  padding: 0.72rem 0.84rem;
+}
+
+.mg-step-title {
+  margin: 0 0 0.25rem;
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: #555;
+}
+
+.mg-step-body {
+  margin: 0;
+  font-size: 0.82rem;
+  color: #555;
+  line-height: 1.32;
+}
+
+.mg-step-teal {
+  background: #e8f4f4;
+  border-left-color: #146E6E;
+}
+
+.mg-step-teal .mg-step-title {
+  color: #146E6E;
+}
+
+.mg-step-warn {
+  background: #fff8e6;
+  border-left-color: #f39c12;
+}
+
+.mg-step-warn .mg-step-title {
+  color: #d68910;
+}
+
+.mg-step-danger {
+  background: #fff3f3;
+  border-left-color: #c0392b;
+}
+
+.mg-step-danger .mg-step-title {
+  color: #c0392b;
+}
+
+.mg-step-success {
+  background: #e8f8f4;
+  border-left-color: #27ae60;
+}
+
+.mg-step-success .mg-step-title {
+  color: #27ae60;
+}
+
+.mg-figure-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.72rem;
+}
+
+.mg-figure {
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+  background: #fff;
+}
+
+.mg-figure img {
+  width: 100%;
+  max-width: 360px;
+  display: block;
+}
+
+.mg-caption {
+  max-width: 300px;
+  font-size: 0.79rem;
+  color: #666;
+  font-style: italic;
+  text-align: center;
+  line-height: 1.35;
+}
+
 /* ─── GRID ─────────────────────────────────────────────────── */
 
 .ep-grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 0.8rem; margin-top: 0.8rem; }
