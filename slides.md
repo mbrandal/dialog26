@@ -11,11 +11,7 @@ navigator: false
 drawings:
   enabled: false
 selectable: false
----
-
----
 layout: cover
-title: All by Myself
 ---
 
 <div class="cover-inner">
@@ -62,8 +58,8 @@ title: Hvem er vi?
   <div style="display:flex;flex-direction:column;gap:0.4rem;align-items:flex-end;">
     <div style="font-size:0.9rem;color:#333;"><strong>🌱 Granngården</strong></div>
     <div style="font-size:0.85rem;color:#666;">Netthandel for hage og landbruk</div>
-    <div v-click style="font-size:0.85rem;color:#666;margin-top:0.3rem;">🏃 Løping &nbsp;•&nbsp; 🥋 Buldring</div>
-    <div v-click style="font-size:0.85rem;color:#666;">⚽ Ser Norge i VM</div>
+    <div style="font-size:0.85rem;color:#666;margin-top:0.3rem;">🏃 Løping &nbsp;•&nbsp; 🥋 Buldring</div>
+    <div style="font-size:0.85rem;color:#666;">⚽ Ser Norge i VM</div>
   </div>
 </div>
 
@@ -77,8 +73,8 @@ title: Hvem er vi?
   <div style="display:flex;flex-direction:column;gap:0.4rem;align-items:flex-start;">
     <div style="font-size:0.9rem;color:#333;"><strong>🏢 NorgesGruppen</strong></div>
     <div style="font-size:0.85rem;color:#666;">Norges største dagligvarekonsern</div>
-    <div v-click="3" style="font-size:0.85rem;color:#666;margin-top:0.3rem;">🧗 Buldring &nbsp;•&nbsp; 🚵 Sykling &nbsp;•&nbsp; ⛷️ Ski &nbsp;&nbsp; <span style="white-space:nowrap;">🪂 x-fallskjermhopper</span> &nbsp;•&nbsp; 🎵 Festivaler &nbsp;&nbsp; ✨&nbsp; (ny hobby TBA)</div>
-    <div v-click="4" style="font-size:0.85rem;color:#666;">⏳ Tid til alt dette: <strong style="color:#c0392b;">nei</strong></div>
+    <div style="font-size:0.85rem;color:#666;margin-top:0.3rem;">🧗 Buldring &nbsp;•&nbsp; 🚵 Sykling &nbsp;•&nbsp; ⛷️ Ski &nbsp;&nbsp; <span style="white-space:nowrap;">🪂 x-fallskjermhopper</span> &nbsp;•&nbsp; 🎵 Festivaler &nbsp;&nbsp; ✨&nbsp; (ny hobby TBA)</div>
+    <div style="font-size:0.85rem;color:#666;">⏳ Tid til alt dette: <strong style="color:#c0392b;">nei</strong></div>
   </div>
 </div>
 
@@ -194,11 +190,7 @@ layout: default
 title: Fra Martin til Magnus
 ---
 
-<div style="display:grid;grid-template-columns:1fr;gap:1.5rem;height:calc(100% - 2rem);align-items:center;justify-content:center;padding:2rem;">
-
-<!-- <div style="max-width:680px;margin:0 auto;">
-  <h1 style="font-size:2.8rem;margin-bottom:1.2rem;color:#fff;border:none;">NorgesGruppen.</h1>
-  <p style="font-size:1.1rem;color:rgba(255,255,255,0.85);margin-bottom:2rem;line-height:1.7;"> -->
+<div style="display:grid;grid-template-columns:1fr;gap:1.5rem;height:calc(100% - 2rem);align-items:center;justify-content:center;padding:2rem;background:#146E6E;margin:-1rem -2rem;padding:3rem;">
 
 <div style="max-width:680px;margin:0 auto;text-align:center;">
   <h1 style="font-size:2.8rem;margin-bottom:0.6rem;color:#fff;border:none;">NorgesGruppen.</h1>
@@ -359,7 +351,7 @@ title: D-Day
   <div v-click style="position:absolute;bottom:28%;left:8%;"><img src="/images/slut-i-lager.svg" style="height:34px;"/></div>
   <div v-click style="position:absolute;top:12%;left:35%;"><img src="/images/slut-i-lager.svg" style="height:28px;"/></div>
   <div v-click style="position:absolute;top:20%;right:25%;"><img src="/images/slut-i-lager.svg" style="height:30px;"/></div>
-  <div v-click style="position:absolute;bottom:22%;right:30%;"><img src="/images/slut-i-lager.svg" style="height:26px;"/></div>
+  <div v-click style="position:absolute;bottom:22%;right:15%;"><img src="/images/slut-i-lager.svg" style="height:26px;"/></div>
   
   <div v-click style="margin-top:1rem;font-size:1.5rem;font-weight:900;color:#fff;">
     Det var meg.
@@ -379,11 +371,8 @@ title: Læring
 <div>
 <h1 style="margin-bottom:1rem;font-size:2rem;">Læring</h1>
 
-<p style="font-size:1.3rem;color:#146E6E;margin-bottom:1.5rem;font-weight:700;">
-  Våg å gjøre feil.
-</p>
-
 <div style="font-size:1rem;color:#333;line-height:1.8;">
+  <p style="margin-bottom:0.8rem;">💪 <strong>Våg å gjøre feil.</strong> Det er sånn du lærer.</p>
   <p style="margin-bottom:0.8rem;">🚨 <strong>Vær i forkant.</strong> Vit om det før kunden ringer.</p>
   <p style="margin-bottom:0.8rem;">📝 <strong>Dokumentér alt.</strong> Fremtidig-meg husker ingenting.</p>
   <p style="margin-bottom:0.8rem;">💬 <strong>Snakk med folk.</strong> Alene ≠ isolert.</p>
@@ -450,10 +439,8 @@ title: Outro
 <div class="cover-inner">
   <div class="cover-logo">Epinova</div>
   <div class="cover-title-area">
-    <h1 style="color:#D0E6E5;">All by Myself...</h1>
-    <p class="cover-subtitle" style="color:rgba(255,255,255,0.9);font-size:1.5rem;font-style:normal;font-weight:700;">...ikke helt 🦆</p>
-    <p class="cover-presenter">Martin Brandal & Magnus Neergaard</p>
-    <p style="color:rgba(255,255,255,0.45);font-size:0.85rem;margin-top:0.5rem;font-style:italic;">🎵 Don't wanna be all by myself anymore</p>
+    <h1 style="color:#D0E6E5;">All by Myself</h1>
+    <p class="cover-subtitle" style="color:rgba(255,255,255,0.9);font-size:1.8rem;font-style:normal;font-weight:700;margin-top:1rem;">Spørsmål?</p>
   </div>
 </div>
 

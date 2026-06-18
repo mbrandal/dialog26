@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <!-- This is Fine - hund i brennende rom -->
+  
+  <!-- Background - room on fire -->
+  <rect width="500" height="350" fill="#8B4513"/>
+  
+  <!-- Flames background -->
+  <rect x="0" y="0" width="500" height="200" fill="#FF4500"/>
+  
+  <!-- Fire patterns -->
+  <path d="M0 150 Q30 100 60 150 Q90 80 120 150 Q150 90 180 150 Q210 70 240 150 Q270 85 300 150 Q330 75 360 150 Q390 90 420 150 Q450 80 480 150 L500 150 L500 0 L0 0 Z" fill="#FF6B00"/>
+  <path d="M0 120 Q40 70 80 120 Q120 50 160 120 Q200 60 240 120 Q280 45 320 120 Q360 55 400 120 Q440 65 480 120 L500 120 L500 0 L0 0 Z" fill="#FFD700" opacity="0.7"/>
+  
+  <!-- Table -->
+  <rect x="150" y="220" width="200" height="15" fill="#654321"/>
+  <rect x="160" y="235" width="10" height="80" fill="#654321"/>
+  <rect x="330" y="235" width="10" height="80" fill="#654321"/>
+  
+  <!-- Coffee cup -->
+  <ellipse cx="250" cy="215" rx="25" ry="10" fill="#fff"/>
+  <rect x="225" y="190" width="50" height="30" rx="5" fill="#fff"/>
+  <ellipse cx="250" cy="190" rx="22" ry="8" fill="#4a2c2a"/>
+  <path d="M275 195 Q290 205 275 220" stroke="#fff" stroke-width="5" fill="none"/>
+  <!-- Steam -->
+  <path d="M240 175 Q235 160 245 150" stroke="#ccc" stroke-width="2" fill="none" opacity="0.8"/>
+  <path d="M255 175 Q260 160 250 150" stroke="#ccc" stroke-width="2" fill="none" opacity="0.8"/>
+  
+  <!-- Dog body -->
+  <ellipse cx="250" cy="280" rx="70" ry="50" fill="#F5DEB3"/>
+  
+  <!-- Dog sitting on chair -->
+  <rect x="180" y="250" width="140" height="80" fill="#8B0000" rx="5"/>
+  <rect x="175" y="320" width="150" height="15" fill="#5a0000"/>
+  
+  <!-- Dog visible above chair -->
+  <ellipse cx="250" cy="200" rx="45" ry="35" fill="#F5DEB3"/>
+  
+  <!-- Dog snout -->
+  <ellipse cx="250" cy="215" rx="20" ry="12" fill="#E8D4A8"/>
+  <ellipse cx="250" cy="210" rx="8" ry="5" fill="#333"/>
+  
+  <!-- Dog eyes - completely calm -->
+  <ellipse cx="235" cy="195" rx="8" ry="10" fill="white"/>
+  <ellipse cx="265" cy="195" rx="8" ry="10" fill="white"/>
+  <circle cx="235" cy="197" r="4" fill="#333"/>
+  <circle cx="265" cy="197" r="4" fill="#333"/>
+  
+  <!-- Dog ears -->
+  <ellipse cx="210" cy="175" rx="18" ry="25" fill="#C4A574"/>
+  <ellipse cx="290" cy="175" rx="18" ry="25" fill="#C4A574"/>
+  
+  <!-- Hat (optional - like a little bowler) -->
+  <ellipse cx="250" cy="165" rx="35" ry="8" fill="#333"/>
+  <rect x="225" y="145" width="50" height="22" rx="5" fill="#333"/>
+  
+  <!-- Speech bubble -->
+  <rect x="320" y="100" width="160" height="70" rx="10" fill="white"/>
+  <polygon points="320,140 300,160 320,155" fill="white"/>
+  <text x="400" y="125" font-family="Impact, Arial Black, sans-serif" font-size="16" fill="#333" text-anchor="middle">THIS IS FINE</text>
+  <text x="400" y="150" font-family="Arial, sans-serif" font-size="11" fill="#666" text-anchor="middle" font-style="italic">(Prod is on fire)</text>
+  
+  <!-- Laptop on fire on table -->
+  <rect x="280" y="200" width="50" height="35" fill="#333" rx="3" transform="rotate(-10 305 217)"/>
+  <rect x="283" y="203" width="44" height="28" fill="#1a1a2e" rx="2" transform="rotate(-10 305 217)"/>
+  <text x="305" y="222" font-family="monospace" font-size="8" fill="#FF0000" text-anchor="middle" transform="rotate(-10 305 217)">ERROR</text>
+  
+  <!-- Small flames on laptop -->
+  <path d="M290 195 Q295 180 300 195 Q305 175 310 195" fill="#FF4500" opacity="0.9"/>
+  
+  <!-- Granngården watermark -->
+  <rect x="10" y="310" width="90" height="30" rx="4" fill="rgba(0,102,51,0.8)"/>
+  <text x="55" y="330" font-family="Arial, sans-serif" font-size="10" fill="white" text-anchor="middle" font-weight="bold">GRANNGÅRDEN</text>
+</svg>

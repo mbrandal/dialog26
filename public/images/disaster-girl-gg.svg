@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400">
+  <!-- Disaster Girl - jenta som smiler foran brennende hus -->
+  
+  <!-- Background - burning building -->
+  <rect width="500" height="400" fill="#1a1a1a"/>
+  
+  <!-- Fire glow -->
+  <ellipse cx="350" cy="150" rx="180" ry="150" fill="#FF4500" opacity="0.3"/>
+  <ellipse cx="320" cy="180" rx="120" ry="100" fill="#FF6B00" opacity="0.4"/>
+  
+  <!-- Building silhouette -->
+  <rect x="250" y="80" width="200" height="250" fill="#2a2a2a"/>
+  <rect x="270" y="100" width="40" height="50" fill="#FF4500" opacity="0.8"/>
+  <rect x="330" y="100" width="40" height="50" fill="#FF6B00" opacity="0.9"/>
+  <rect x="390" y="100" width="40" height="50" fill="#FF4500" opacity="0.7"/>
+  <rect x="270" y="170" width="40" height="50" fill="#FF6B00" opacity="0.8"/>
+  <rect x="330" y="170" width="40" height="50" fill="#FF4500" opacity="0.9"/>
+  <rect x="390" y="170" width="40" height="50" fill="#FF6B00" opacity="0.7"/>
+  
+  <!-- Flames -->
+  <path d="M280 80 Q290 40 300 80 Q310 20 320 80 Q330 50 340 80" fill="#FF4500"/>
+  <path d="M340 80 Q350 30 360 80 Q370 50 380 80 Q390 40 400 80" fill="#FF6B00"/>
+  <path d="M400 80 Q410 45 420 80 Q430 35 440 80" fill="#FFD700"/>
+  
+  <!-- Girl silhouette in foreground -->
+  <ellipse cx="120" cy="320" rx="80" ry="60" fill="#333"/>
+  
+  <!-- Girl's head -->
+  <circle cx="120" cy="200" r="55" fill="#FFDAB9"/>
+  
+  <!-- Hair -->
+  <ellipse cx="120" cy="180" rx="60" ry="45" fill="#8B4513"/>
+  <ellipse cx="85" cy="220" rx="25" ry="40" fill="#8B4513"/>
+  <ellipse cx="155" cy="220" rx="25" ry="40" fill="#8B4513"/>
+  
+  <!-- Face -->
+  <ellipse cx="100" cy="200" rx="8" ry="6" fill="#333"/>
+  <ellipse cx="140" cy="200" rx="8" ry="6" fill="#333"/>
+  
+  <!-- Evil smile -->
+  <path d="M95 225 Q120 250 145 225" stroke="#333" stroke-width="4" fill="none"/>
+  <path d="M100 225 Q120 242 140 225" stroke="#c0392b" stroke-width="2" fill="none"/>
+  
+  <!-- Eyebrows - mischievous -->
+  <path d="M88 190 L108 185" stroke="#5D4037" stroke-width="3"/>
+  <path d="M132 185 L152 190" stroke="#5D4037" stroke-width="3"/>
+  
+  <!-- Server rack icon burning -->
+  <rect x="300" y="250" width="60" height="80" fill="#444" rx="3"/>
+  <rect x="305" y="260" width="50" height="8" fill="#00FF00"/>
+  <rect x="305" y="275" width="50" height="8" fill="#FF0000"/>
+  <rect x="305" y="290" width="50" height="8" fill="#FF0000"/>
+  <rect x="305" y="305" width="50" height="8" fill="#FF0000"/>
+  <text x="330" y="340" font-family="monospace" font-size="8" fill="#FF4500" text-anchor="middle">PROD</text>
+  
+  <!-- Flames on server -->
+  <path d="M300 250 Q310 230 320 250 Q330 220 340 250" fill="#FF4500" opacity="0.9"/>
+  <path d="M330 250 Q340 225 350 250 Q360 235 360 250" fill="#FFD700" opacity="0.8"/>
+  
+  <!-- Text -->
+  <rect x="20" y="20" width="200" height="50" rx="8" fill="rgba(0,0,0,0.7)"/>
+  <text x="120" y="42" font-family="Impact, Arial Black, sans-serif" font-size="14" fill="white" text-anchor="middle">WHEN YOUR DEPLOY</text>
+  <text x="120" y="60" font-family="Impact, Arial Black, sans-serif" font-size="14" fill="white" text-anchor="middle">WORKS... TOO WELL</text>
+  
+  <!-- Granngården logo small -->
+  <rect x="40" y="350" width="80" height="30" rx="4" fill="#006633"/>
+  <text x="80" y="370" font-family="Arial, sans-serif" font-size="10" fill="white" text-anchor="middle" font-weight="bold">GRANNGÅRDEN</text>
+</svg>
